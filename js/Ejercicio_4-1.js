@@ -23,11 +23,12 @@ function ponfecha(){
 	var d = new Date();
 	// Obtengo el indice que me permitirá recorrer los arrays.
 	var dia_semana = d.getDay();
+	var dia_mes = d.getDate()
 	var mes = d.getMonth();
 	var ano = d.getFullYear()
-	// Genero el parámetro que le paso a la función escribe y añado las etiquetas HTML de negrita
+	// Genero el parámetro que le paso a la función (escribe) y añado las etiquetas HTML de titular
 	// como está en el ejercicio.
-	var texto_dia_semana ="Hoy es "+"<b>"+ semana[dia_semana]+dia_semana+" de "+meses[mes]+" de "+ano+"</b>";
+	var texto_dia_semana ="<h1>"+"Hoy es "+ semana[dia_semana]+dia_mes+" de "+meses[mes]+" de "+ano+"</h1>";
 
 
    // hago una llamada a la función escribe con el parámetro anterior.

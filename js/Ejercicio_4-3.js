@@ -30,7 +30,7 @@ window.onload = function() {
    var enlaces_parrafo2 = parrafos[1].getElementsByTagName("a");
 
 
-    info.innerHTML = "Numero de enlaces " + enlaces.length + "<br/>" + mensaje + "<br/>" +
-       contador  + "Numero de enlaces que NO enlazan a http://prueba" + "<br/>" +
-        "Número de enlaces del SEGUNDO párrafo" + enlaces_parrafo2.length
+    info.innerHTML ="<h2>"+ "Numero de enlaces: " + enlaces.length + "<br/>" + mensaje + "<br/>" +
+       contador  + "= Numero de enlaces que NO enlazan a http://prueba" + "<br/>" +
+        "Número de enlaces del SEGUNDO párrafo: " + enlaces_parrafo2.length+ "</h2>"
 }

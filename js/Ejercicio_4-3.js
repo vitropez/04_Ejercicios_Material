@@ -4,7 +4,7 @@
 window.onload = function() {
 
 // COMPLETAR ESTA FUNCION
-    var info = document.getElementById("informacion")
+    var info = document.getElementById("informacion");
 
     // Numero de enlaces de la pagina
     var enlaces = document.getElementsByTagName("a");
